@@ -85,46 +85,61 @@ namespace MyLibrary
 
         private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
         {
-            //ch2 = chLibIndex;
-            //MessageBox.Show(ch2.ToString());
-            //Author a;
-            //Theme t;
-            //Category c;
-            //Press p;
+            Author a;
+            Theme t;
+            Category c;
+            Press p;
 
-            ////= (Author)chDop.SelectedItem;
-            ////dgBooks.ItemsSource = a.Books;
-            
-            //switch (ch2)
-            //{
-            //    case 0:
-            //        {
-            //            a = (Author)chDop.SelectedItem;
-            //            dgBooks.ItemsSource = a.Books;
-            //            break;
-            //        }
-            //    case 1:
-            //        {
-                        //t = (Theme)chDop.SelectedItem;
-                        //dgBooks.ItemsSource = t.Books;
-            //            break;
-            //        }
-            //    case 2:
-            //        {
-            //            c = (Category)chDop.SelectedItem;
-            //            dgBooks.ItemsSource = c.Books;
-            //            break;
-            //        }
-            //    case 3:
-            //        {
-            //            p = (Press)chDop.SelectedItem;
-            //            dgBooks.ItemsSource = p.Books;
-            //            break;
-            //        }
-            //    default:
-            //        break;
-            //}
+            try
+            {
+                switch (chLibIndex)
+                {
+                    case 0:
+                        {
 
+                            if (((ComboBox)sender).SelectedItem is Author)
+                            {
+                                a = (Author)chDop.SelectedItem;
+                                dgBooks.ItemsSource = a.Books;
+                            }
+                            
+                            break;
+                        }
+                    case 1:
+                        {
+                            if (((ComboBox)sender).SelectedItem is Theme)
+                            {
+                                t = (Theme)chDop.SelectedItem;
+                                dgBooks.ItemsSource = t.Books;
+                            }
+                            break;
+                        }
+                    case 2:
+                        {
+                            if (((ComboBox)sender).SelectedItem is Category)
+                            {
+                                c = (Category)chDop.SelectedItem;
+                                dgBooks.ItemsSource = c.Books;
+                            }
+                            break;
+                        }
+                    case 3:
+                        {
+                            if (((ComboBox)sender).SelectedItem is Press)
+                            {
+                                p = (Press)chDop.SelectedItem;
+                                dgBooks.ItemsSource = p.Books;
+                            }
+                            break;
+                        }
+                    default:
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             
 
         }

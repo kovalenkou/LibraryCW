@@ -93,7 +93,7 @@
         <classShapeMoniker Id="4db7e217-bc5b-4dfa-ba85-286a3cbf5e51" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(2.75 : 4.72199625651042); (3.5 : 4.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(2.75 : 4.72199625651042); (3.5 : 4.72199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/LibraryDataContext/Theme/Theme_Book" />
       <nodes>
         <classShapeMoniker Id="17fe1492-c343-4ac1-901d-170864646fee" />
@@ -121,14 +121,14 @@
         <classShapeMoniker Id="4db7e217-bc5b-4dfa-ba85-286a3cbf5e51" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(5.5 : 4.73159912109375); (6.25 : 4.73159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(5.5 : 4.73159912109375); (5.91666666666667 : 4.73159912109375 : JumpStart); (6.08333333333333 : 4.73159912109375 : JumpEnd); (6.25 : 4.73159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/LibraryDataContext/Book/Book_S_Card" />
       <nodes>
         <classShapeMoniker Id="4db7e217-bc5b-4dfa-ba85-286a3cbf5e51" />
         <classShapeMoniker Id="2b8f232e-b763-4134-922e-f101724c702a" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(5.5 : 2.2612939453125); (5.875 : 2.6362939453125); (5.875 : 4.20954756054688); (6.25 : 4.20954756054688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(5.5 : 2.2612939453125); (5.875 : 2.6362939453125); (5.875 : 4.20954756054688); (5.91666666666667 : 4.20954756054688 : JumpStart); (6.08333333333333 : 4.20954756054688 : JumpEnd); (6.25 : 4.20954756054688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/LibraryDataContext/Lib/Lib_S_Card" />
       <nodes>
         <classShapeMoniker Id="2306cadb-7f4c-4201-bbf9-6bf2b05d60dc" />
@@ -149,7 +149,7 @@
         <classShapeMoniker Id="750c1a7b-0321-40f9-9f09-e7f8fa84a43b" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(5.5 : 3.43653746153846); (6.0625 : 2.87403746153846); (6.0625 : 1.73159912109375); (6.25 : 1.73159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(5.5 : 3.43653746153846); (5.81607443490112 : 3.12046302663734 : JumpStart); (5.93392556509888 : 3.00261189643958 : JumpEnd); (6.0625 : 2.87403746153846); (6.0625 : 1.73159912109375); (6.25 : 1.73159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/LibraryDataContext/Book/Book_T_Card" />
       <nodes>
         <classShapeMoniker Id="4db7e217-bc5b-4dfa-ba85-286a3cbf5e51" />
