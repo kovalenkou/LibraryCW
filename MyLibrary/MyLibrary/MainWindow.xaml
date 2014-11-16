@@ -1,0 +1,13 @@
+﻿<Window x:Name="mnWin" x:Class="MyLibrary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="783.481" Loaded="mnWin_Loaded">
+    <Grid>
+        <Label x:Name="lab1" Content="Выберите условие для поиска книг:" HorizontalAlignment="Left" Height="31" Margin="10,10,0,0" VerticalAlignment="Top" Width="216"/>
+        <ComboBox x:Name="cbChoose" HorizontalAlignment="Left" Margin="231,10,0,0" VerticalAlignment="Top" Width="134" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="chDop" HorizontalAlignment="Left" Margin="575,10,0,0" VerticalAlignment="Top" Width="190" SelectionChanged="ComboBox_SelectionChanged_1"/>
+        <Label x:Name="lab2" Content="Выберите керитерий поиска:" HorizontalAlignment="Left" Height="31" Margin="381,10,0,0" VerticalAlignment="Top" Width="174"/>
+        <DataGrid x:Name="dgBooks" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="98" Width="755"/>
+
+    </Grid>
+</Window>
